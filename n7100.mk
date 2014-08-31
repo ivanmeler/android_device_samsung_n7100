@@ -93,4 +93,4 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 
-$(call inherit-product-if-exists, vendor/samsung/n7100/n7100-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung_own/n7100/n7100-vendor.mk)
