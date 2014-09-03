@@ -22,6 +22,6 @@
 <resources>
 
     <!-- Full path to the sysfs toggle -->
-    <string name="config_sysfs_torch">/sys/class/camera/flash/rear_flash</string>
+    <string name="config_sysfs_torch">/sys/class/camera/rear/rear_flash</string>
 
 </resources>
