@@ -22,7 +22,7 @@
 # RIL
 BOARD_PROVIDES_LIBRIL := true
 BOARD_MODEM_TYPE := xmm6262
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/n7100/include
+BOARD_RIL_CLASS := ../../../hardware/samsung/ril
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/n7100/bluetooth
@@ -33,6 +33,9 @@ TARGET_KERNEL_CONFIG := custom_n7100_defconfig
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := t03g,n7100,GT-N7100
+
+# own headers
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/n7100/include
 
 # inherit from the proprietary version
 -include vendor/samsung/n7100/BoardConfigVendor.mk
