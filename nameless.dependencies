@@ -22,11 +22,5 @@
         "repository": "NamelessRom/android_hardware_samsung",
         "target_path": "hardware/samsung",
         "revision": "n-2.0"
-    },
-    {
-        "remote": "github",
-        "repository": "NamelessRom/android_hardware_samsung_slsi_exynos4",
-        "target_path": "hardware/samsung_slsi/exynos4",
-        "revision": "n-2.0"
     }
 ]
