@@ -122,4 +122,17 @@
 
     <!-- Boolean to enable Stylus gestures -->
     <bool name="config_stylusGestures">true</bool>
+
+    <!-- bool value to for enabling motion accelerometer -->
+    <bool name="use_motion_accel">true</bool>
+
+    <!-- Is the device LTE capable -->
+    <bool name="config_lte_capable">false</bool>
+
+    <!-- Maximum number of supported users -->
+    <integer name="config_multiuserMaximumUsers">4</integer>
+
+    <!-- Whether UI for multi user should be shown -->
+    <bool name="config_enableMultiUserUI">true</bool>
+
 </resources>
