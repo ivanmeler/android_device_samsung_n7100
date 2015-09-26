@@ -63,6 +63,7 @@ BOARD_SEPOLICY_UNION +=\
     radio.te \
     rild.te \
     service_contexts \
+    servicemanager.te \
     surfaceflinger.te \
     system_app.te \
     system_server.te \
