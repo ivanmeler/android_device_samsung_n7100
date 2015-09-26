@@ -61,6 +61,7 @@ BOARD_SEPOLICY_UNION +=\
     nfc.te \
     platform_app.te \
     rild.te \
+    service_contexts \
     surfaceflinger.te \
     system_app.te \
     system_server.te \
