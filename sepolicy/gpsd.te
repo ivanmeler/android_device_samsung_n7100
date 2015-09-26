@@ -1,0 +1,3 @@
+allow gpsd rild:unix_stream_socket connectto;
+allow gpsd system_data_file:file { write lock open };
+allow gpsd system_data_file:fifo_file { read write open setattr };

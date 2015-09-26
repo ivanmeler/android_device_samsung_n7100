@@ -1,0 +1,2 @@
+allow bluetooth firmware_exynos:dir { read open };
+allow bluetooth firmware_exynos:file { read open };
