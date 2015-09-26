@@ -48,8 +48,6 @@ PRODUCT_COPY_FILES += \
 
 # Product specific Packages
 PRODUCT_PACKAGES += \
-    libsecril-client \
-    libsecril-client-sap \
     SamsungServiceMode
 
 # Sensors
