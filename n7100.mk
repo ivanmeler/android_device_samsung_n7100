@@ -62,6 +62,11 @@ PRODUCT_PACKAGES += \
     Nfc \
     Tag
 
+# Make cellular work
+PRODUCT_PACKAGES += \
+	dmitry-ril \
+	libdmitrygr_helper
+
 PRODUCT_COPY_FILES += \
     packages/apps/Nfc/migrate_nfc.txt:system/etc/updatecmds/migrate_nfc.txt \
     frameworks/base/nfc-extras/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml \
