@@ -48,30 +48,6 @@ COMMON_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
 #Selinux
 #BOARD_SEPOLICY_DIRS +=\
 #    device/samsung/n7100/sepolicy
-#
-#BOARD_SEPOLICY_UNION +=\
-#    bluetooth.te \
-#    bootanim.te \
-#    device.te \
-#    file_contexts \
-#    file.te \
-#    gpsd.te \
-#    hostapd.te \
-#    mediaserver.te \
-#    netd.te \
-#    nfc.te \
-#    platform_app.te \
-#    radio.te \
-#    rild.te \
-#    service_contexts \
-#    servicemanager.te \
-#    surfaceflinger.te \
-#    system_app.te \
-#    system_server.te \
-#    ueventd.te \
-#    untrusted_app.te \
-#    vold.te \
-#    wpa.te
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/n7100/rootdir/fstab.smdk4x12
