@@ -61,10 +61,11 @@ PRODUCT_PACKAGES += \
     Nfc \
     Tag
 
-# Make cellular work
+# Make cellular and gps work
 PRODUCT_PACKAGES += \
 	dmitry-ril \
-	libdmitrygr_helper
+	libdmitrygr_helper \
+	libdmitry
 
 PRODUCT_COPY_FILES += \
     packages/apps/Nfc/migrate_nfc.txt:system/etc/updatecmds/migrate_nfc.txt \
