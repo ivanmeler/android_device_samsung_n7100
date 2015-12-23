@@ -40,7 +40,10 @@ TARGET_OTA_ASSERT_DEVICE := t03g,n7100,GT-N7100
 
 # own headers
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/n7100/include
+
+# Misc
 COMMON_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
+TARGET_REQUIRES_SYNCHRONOUS_SETSURFACE := true
 
 # inherit from the proprietary version
 -include vendor/samsung/n7100/BoardConfigVendor.mk
