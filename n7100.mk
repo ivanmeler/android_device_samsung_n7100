@@ -95,6 +95,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=false \
     ro.telephony.call_ring.delay=2000
 
+# OTA
+PRODUCT_PROPERTY_OVERRIDES += \
+        ro.ota.romname=Cyanogenmod 12.1 \
+        ro.ota.manifest=http://romhut.com/roms/cyanogenmod-12-1-131/ota.xml \
+        ro.ota.version=$(shell date +%Y%m%d)
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/ota.apk:system/app/ota/ota.apk
+
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
