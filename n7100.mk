@@ -91,7 +91,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # OTA
 PRODUCT_PROPERTY_OVERRIDES += \
-        ro.ota.romname=Cyanogenmod 12.1 \
+        ro.ota.romname=Cyanogenmod12.1 \
         ro.ota.manifest=http://romhut.com/roms/cyanogenmod-12-1-131/ota.xml \
         ro.ota.version=$(shell date +%Y%m%d)
 
