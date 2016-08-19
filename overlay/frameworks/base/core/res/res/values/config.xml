@@ -138,7 +138,7 @@
     
     <!-- Older rotation sensors are not setting event.timestamp correctly. Setting to
          true will use SystemClock.elapsedRealtimeNanos() to set timestamp. -->
-    <bool name="config_useSystemClockforRotationSensor">true</bool>
+    <!--bool name="config_useSystemClockforRotationSensor">true</bool-->
     
     <!-- Screen brightness when dozing. -->
     <integer name="config_screenBrightnessDoze">20</integer>
