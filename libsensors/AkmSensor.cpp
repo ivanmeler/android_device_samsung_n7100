@@ -272,7 +272,7 @@ int AkmSensor::readEvents(sensors_event_t* data, int count)
             processEvent(event->code, event->value);
             mInputReader.next();
         } else if (type == EV_SYN) {
-            int64_t time = getTimestamp();
+            int64_t time = timevalToNano(event->time);
             for (int j=0 ; count && mPendingMask && j<numSensors ; j++) {
                 if (mPendingMask & (1<<j)) {
                     mPendingMask &= ~(1<<j);
