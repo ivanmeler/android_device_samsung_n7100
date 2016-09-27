@@ -187,5 +187,5 @@
     <bool name="config_enableAutoPowerModes">true</bool>
 
     <!-- Show battery fully charged notification -->
-    <bool name="config_showBatteryFullyChargedNotification">true</bool>
+    <!--bool name="config_showBatteryFullyChargedNotification">true</bool-->
 </resources>
